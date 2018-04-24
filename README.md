@@ -7,20 +7,11 @@ Designed using New York news api.
 News app is developed using Model View ViewModel Pattern (MVVM).
 It also includes Viewmodel with repository pattern.
 
-### Installation
-
-User can simply download the code and run the project.
-
-
-## Library Used
+## Libraries Used
 
 * Dagger
 * Data Binding
 * Retrofit with Rx
-
-## Versioning
-
-We use git for versioning. For the versions available, see the tags.
 
 ## Authors
 
