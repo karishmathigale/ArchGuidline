@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="CardStackView">
+        <attr name="visibleCount" format="integer"/>
+        <attr name="swipeThreshold" format="float"/>
+        <attr name="translationDiff" format="float"/>
+        <attr name="scaleDiff" format="float"/>
+        <attr name="stackFrom" format="enum">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr>
+        <attr name="elevationEnabled" format="boolean"/>
+        <attr name="swipeEnabled" format="boolean"/>
+        <attr name="swipeDirection" format="enum">
+            <enum name="freedom" value="0"/>
+            <enum name="freedom_no_bottom" value="1"/>
+            <enum name="horizontal" value="2"/>
+            <enum name="vertical" value="3"/>
+        </attr>
+        <attr name="leftOverlay" format="reference"/>
+        <attr name="rightOverlay" format="reference"/>
+        <attr name="bottomOverlay" format="reference"/>
+        <attr name="topOverlay" format="reference"/>
+    </declare-styleable>
+</resources>

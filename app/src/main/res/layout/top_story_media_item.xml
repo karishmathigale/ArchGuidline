@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View" />
+        <variable
+            name="model"
+            type="com.example.times.model.Multimedia" />
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/iv_media"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginEnd="5dp"
+            url="@{model.url}"
+            app:layout_constraintEnd_toEndOf="parent"
+            fresco:placeholderImage="@drawable/ic_launcher_background" />
+
+    </android.support.constraint.ConstraintLayout>
+</layout>
